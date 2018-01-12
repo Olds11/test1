@@ -1,2 +1,1 @@
-# test1
-test
+Complete web dev course practice project
