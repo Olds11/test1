@@ -12,6 +12,7 @@
   	body {
     	margin: 0;
     	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
     	}
   	
    	#topbar {
@@ -20,18 +21,129 @@
         height: 40px;
         background-color: #FFFFFF;
         }
-    
+	
+	#topbar-logo {
+	margin-top: 4px;
+	margin-right:2px;
+	float: left;
+	}
+	
+	#signin {
+	float: left;
+	}
+
+	.toolbar-section {
+	border-left: 1px solid #CCCCCC;
+	height: 100%; 
+	float: left;
+	}
+
+	#signin-img {
+	margin-top: 8px;
+	margin-left: 13px;
+	float: left;
+	}
+
+	#signin-text {
+	position:relative;
+	top: 13px;
+	left: 10px;
+	font-weight: bold;
+	font-size: 90%;
+	padding-right: 60px;
+	}
+
+	#bell-div {
+	float:left;
+	}
+
+	#line {
+	height: 40px;
+	float:left;
+
+	}
+
+	#bell {
+	margin-top: 10px;
+	margin-left: 6px;
+	margin-right: 8px;
+	}
+
+	.navbar {
+	font-weight: bold;
+	font-size: 90%;
+	padding: 13px 10px;
+	height: 14px;
+	}
+
+	#arrow {
+	margin-left: 25px;
+	float:right;	
+	}
+
+	
+	#search {
+	font-weight:bold;
+	background-color: #E4E4E4;
+	border: none;
+	padding: 5px;
+	margin: 7px 0px 5px 5px; 
+	height:15px;
+	float:left;
+	}
+
+	#search-img {
+	padding-top:7px;
+	height: 25px;
+	}
     
   </style>
   
 </head>
 <body>
-  <div id="topbar">
+	<div id="topbar">
+		
+		<img id="topbar-logo" src="bbclogo.png">
+	
+  		<div id="signin" class="toolbar-section">
+			<img id="signin-img" src="signin.png">
+			<span id="signin-text">Sign in</span>
+		</div>
+		<div id="bell-div">
+			<img id="line" src="line.png">
+			<img id="bell" src="bell.png">
+		</div>
+		<div class="toolbar-section navbar">
+			<span>News</span>
+		
+		</div>
+		<div class="toolbar-section navbar">
+			<span>Sports</span>
+		
+		</div>
+		<div class="toolbar-section navbar">
+			<span>Weather</span>
+		
+		</div>
+		<div class="toolbar-section navbar">
+			<span>iPlayer</span>
+		
+		</div>
+		<div class="toolbar-section navbar">
+			<span>TV</span>
+		
+		</div>
+		<div class="toolbar-section navbar">
+			<span>More</span>
+			<img id="arrow" src="arrow.png">
+		
+		</div>
+		<div class="toolbar-section">
+			<input type="text" placeholder="Search" id="search">
+			<input type="image" id="search-img" src="searchimg.png">
+		</div>
   
-    <img src="bbclogo.png">
-  
-  
-  </div>
+  	</div>
   
 </body>
   
