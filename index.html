@@ -96,6 +96,90 @@
 	padding-top:7px;
 	height: 25px;
 	}
+	
+	.clear {
+	clear:both;
+	}
+
+	#red-menu-container {
+	border-top: 1px #E4E4E4 solid;
+	background-color: #BB1919;
+	width: 100%;
+	height: 70px;
+	}
+
+	#menu-bar {
+	width:1000px;
+	margin: 0 auto;
+	}
+
+	h1 {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 40px;
+	font-weight: normal;
+	padding-top: 12px;
+	float: left;
+	}
+
+	#local-news {
+	border: #BB4545 solid 1px;
+	float:right;
+	padding: 5px;
+	margin: 7px 80px 7px 7px;
+	}
+
+	#local-news a {
+	color:white;
+	text-decoration: none;
+	font-size: 23px;
+	position: relative;
+	top:-8px;
+	}
+
+	#local-news a:hover {
+	text-decoration: underline;
+	}
+
+	#local-news img {
+	position:relative;
+	top:-1px;
+	}
+
+	#menu-container-lower {
+	background-color: #A91717;
+	height: 40px;
+	width: 100%;
+	}
+
+	#menu-bar-lower {
+	width: 1000px;
+	margin: 0 auto;
+	}
+
+	#menu-bar-lower a {
+	color:white;
+	text-decoration: none;
+	border-right: 1px solid #BB4545;
+	padding: 0 10px 0 0;
+	font-size: 16px;
+	position: relative;
+	top: 4px;
+	}
+
+	#menu-bar-lower a:hover {
+	text-decoration: underline;
+	}
+
+	.no-border {
+	border: none !important;
+	}
+
+	#down-arrow {
+	position: relative;
+	top: 10px;
+	}
     
   </style>
   
@@ -144,6 +228,46 @@
 		</div>
   
   	</div>
+	<div class="clear">
+	</div>
+	<div id="red-menu-container">
+
+		<div id="menu-bar">
+
+			<h1>NEWS</h1>
+			<div id="local-news">
+				<a href="">Find local news</a>
+				<img src="pointer.png">
+
+			</div>
+
+		</div>
+	<div class="clear">
+	</div>
+	<div id="menu-container-lower">
+		<div id="menu-bar-lower">
+
+			<a href="">Home</a>
+			<a href="">UK</a>
+			<a href="">World</a>
+			<a href="">Business</a>
+			<a href="">Politics</a>
+			<a href="">Tech</a>
+			<a href="">Science</a>
+			<a href="">Health</a>
+			<a href="">Education</a>
+			<a href="">Entertainment &amp Arts</a>
+			<a href="">Visual &amp Audio</a>
+			<a href="" class="no-border">More</a>
+			<img src="downarrow.png" id="down-arrow">
+
+		</div>
+
+	</div>
+
+	
+	
+	
   
 </body>
   
